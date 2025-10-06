@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tutorial 4: Simple JavaScript Interactions</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Tutorial 4: JavaScript Fundamentals</h1>
+            <p>Three simple steps to understand how JavaScript works</p>
+        </header>
+
+        <!-- Step 1: Boolean - Click to Change Color -->
+        <section class="step-section">
+            <h2>Step 1: Click to Change Color (Boolean)</h2>
+            <p>Click the button to change the box color. This demonstrates boolean (true/false) values.</p>
+            
+            <div class="demo-area">
+                <div id="color-box" class="color-box">This box will change color</div>
+                <button id="color-button">Change Color</button>
+            </div>
+            
+            <div class="explanation">
+                <p><strong>What's happening:</strong> JavaScript finds the box, adds or removes a CSS class, changing its appearance.</p>
+            </div>
+        </section>
+
+        <!-- Step 2: String - Click to Change Text -->
+        <section class="step-section">
+            <h2>Step 2: Click to Change Text (String)</h2>
+            <p>Click the button to change the greeting text. This demonstrates string (text) values.</p>
+            
+            <div class="demo-area">
+                <div id="greeting-text" class="greeting-text">Hello there!</div>
+                <button id="text-button">Change Greeting</button>
+            </div>
+            
+            <div class="explanation">
+                <p><strong>What's happening:</strong> JavaScript finds the text element and changes its content to a different string.</p>
+            </div>
+        </section>
+
+        <!-- Step 3: Number/Input - Type to Display -->
+        <section class="step-section">
+            <h2>Step 3: Type to Display (Numbers & Input)</h2>
+            <p>Type a number in the box and see it appear below. This demonstrates getting user input.</p>
+            
+            <div class="demo-area">
+                <label for="number-input">Enter a number:</label>
+                <input type="number" id="number-input" placeholder="Type here...">
+                <div id="number-display" class="number-display">Your number will appear here</div>
+            </div>
+            
+            <div class="explanation">
+                <p><strong>What's happening:</strong> JavaScript gets the value from the input box and displays it in another element.</p>
+            </div>
+        </section>
+
+        <!-- Tutorial Instructions -->
+        <section class="tutorial-instructions">
+            <h2>Your Tasks</h2>
+            <ol>
+                <li><strong>Step 1:</strong> Make the "Change Color" button toggle the box between gray and blue</li>
+                <li><strong>Step 2:</strong> Make the "Change Greeting" button switch between "Hello there!" and "Goodbye!"</li>
+                <li><strong>Step 3:</strong> Make typing in the number box display that number below it</li>
+            </ol>
+            
+            <h3>JavaScript Skills to Practice:</h3>
+            <ul>
+                <li><code>document.querySelector()</code> - find an element</li>
+                <li><code>addEventListener('click', function)</code> - respond to button clicks</li>
+                <li><code>addEventListener('input', function)</code> - respond to typing</li>
+                <li><code>classList.toggle()</code> - change CSS classes</li>
+                <li><code>textContent</code> - change text content</li>
+                <li><code>value</code> - get input values</li>
+            </ul>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
