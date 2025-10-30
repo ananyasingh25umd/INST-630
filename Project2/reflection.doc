@@ -1,0 +1,15 @@
+
+    1. Which API you chose and why
+    - I chose NASA’s InSight Weather Forecast API for my project because it just sounded so cool! I mean, why show regular weather data from Earth when you can display actual weather readings from Mars? I picked it mostly out of curiosity. I wanted to see what Martian weather even looks like and how different it is from what we experience here.
+    
+    2. How each view emphasizes different aspects of your data
+    - The card view gives a quick snapshot of the main details for each sol, just like flipping through daily weather highlights. The table view is more about precision, where you can actually compare exact values like temperature, pressure, and wind across different sols. The category view organizes the data into groups, so you can spot broader patterns, like, which season is the coldest or how wind direction changes. Finally, the statistics view zooms out even more to show the big picture, with averages and trends that summarize what’s really going on overall.
+    
+    3. What insights each presentation reveals that others don't
+    - The card view makes it easy to notice day-to-day changes, like which sol was especially warm or windy. The table view is great for spotting exact differences and doing quick comparisons across sols. The category view reveals patterns you might miss otherwise, like, how certain temperature ranges or wind directions tend to appear more often. And the statistics view ties it all together by showing overall trends, like average conditions or the most common wind directions. Basically, each one adds a new layer of understanding from small details to big-picture patterns.
+    
+    4. Which view you think is most useful for your specific dataset and why
+    - I think the card view is the most useful for this dataset. It shows the details for each sol clearly, so you can quickly see temperature, wind, and pressure all in one place. It’s easy to follow and gives a good sense of how conditions change day by day.
+    
+    5. One challenge you encountered and how you solved it.
+    - Just one challenge? Oh my God, I had way too many to count! I used to spend hours trying to figure out and fix the code. The worst one was definitely the table view. Working with CSS and tables felt next-level, and I really struggled with sorting and displaying the data in the JS file. I ended up getting a little help from a GenAI tool to help me with the sorting thinking because I wanted to avoid manually swapping elements. Learning how to use a modifier in that context was super cool. It was a totally new trick for me! Even though it took a lot of time, I really enjoyed building this project, and in the end, it was completely worth it.
