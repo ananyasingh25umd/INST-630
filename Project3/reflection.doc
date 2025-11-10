@@ -1,0 +1,14 @@
+1. Which enhancement option you chose and why?
+- I chose Chart.js for my enhancement and added it to the Stats view because it already shows Mars weather data in numbers. Using charts makes it easier to see patterns and compare values instead of just reading plain text.
+    
+2. What user problem your enhancement solves?
+ - It helps users understand the Mars weather data more easily. Instead of trying to read and compare numbers, they can quickly see trends and differences through the charts.
+    
+3. Specific challenges you encountered integrating the library?
+- Plugging in the CDN was easy but getting the chart to look right, especially making it responsive and adjusting its size, took some trial and error. 
+
+4. How the enhancement changes how users interact with your data?
+- The charts make it easier for users to understand the data at a glance instead of reading through numbers, so they can quickly spot trends and comparisons.
+
+5. What you would do differently with more time?
+- I would probably keep the charts the same since my data is mostly numerical and charts seem to be the best way to represent them. Other than that, I might have played a little bit with GSAP for animations in certain elements. 

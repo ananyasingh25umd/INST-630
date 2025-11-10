@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INST 630 - Project 3</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="img-bg">
+                <h1 class="head-title">Mars Weather Forecast</h1>
+                <p class="head-desc">Explore weather conditions on Mars with data from NASA’s InSight mission. <br> View temperature, wind, and pressure trends across recent Martian sols.</p>
+                <nav class="view-selector">
+                    <button class="view-button active" id="btn-cards" data-view="cards"><svg class="nav-icon" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#FFFFFF"><path d="M880-170v-620 620ZM80-610v-180h170v180H80Zm210 0v-180h170v180H290Zm210 0v-180h170v180H500Zm210 0v-180h170v180H710Zm0 220v-180h170v180H710Zm-210 0v-180h170v180H500Zm-210 0v-180h170v180H290Zm-210 0v-180h170v180H80Zm630 220v-180h170v180H710Zm-210 0v-180h170v180H500Zm-210 0v-180h170v180H290Zm-210 0v-180h170v180H80Z"/></svg><span class="nav-label">Card</span></button>
+                    <button class="view-button" id="btn-table" data-view="table"><svg class="nav-icon" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#FFFFFF"><path d="M440-320H120v120q0 33 23.5 56.5T200-120h240v-200Zm80 0v200h240q33 0 56.5-23.5T840-200v-120H520Zm-80-80v-200H120v200h320Zm80 0h320v-200H520v200ZM120-680h720v-80q0-33-23.5-56.5T760-840H200q-33 0-56.5 23.5T120-760v80Z"/></svg><span class="nav-label">Table</span></button>
+                    <button class="view-button" id="btn-categories" data-view="categories"><svg class="nav-icon" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#FFFFFF"><path d="m260-520 220-360 220 360H260ZM700-80q-75 0-127.5-52.5T520-260q0-75 52.5-127.5T700-440q75 0 127.5 52.5T880-260q0 75-52.5 127.5T700-80Zm-580-20v-320h320v320H120Z"/></svg><span class="nav-label">Category</span></button>
+                    <button class="view-button" id="btn-stats" data-view="stats"><svg class="nav-icon" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#FFFFFF"><path d="M640-160v-280h160v280H640Zm-240 0v-640h160v640H400Zm-240 0v-440h160v440H160Z"/></svg><span class="nav-label">Stats</span></button>
+                </nav>
+            </div>
+        </header>
+
+        <main class="display-container">
+            <div id="data-display">
+                <div class="loading">Loading data from NASA...</div>
+            </div>
+        </main>
+
+        <footer class="page-footer">
+            <p>The presented Mars weather information is derived from archived datasets of <a href="https://science.nasa.gov/mission/insight/" target="_blank"> NASA's InSight</a> mission and may not reflect current atmospheric conditions.</p> <br>
+            <a href="https://github.com/ananyasingh25umd/INST-630/tree/main/Project3" target="_blank"><p class="alignment">GitHub<svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="20px" fill="#e7b198"><path d="M200-120q-33 0-56.5-23.5T120-200v-560q0-33 23.5-56.5T200-840h280v80H200v560h560v-280h80v280q0 33-23.5 56.5T760-120H200Zm188-212-56-56 372-372H560v-80h280v280h-80v-144L388-332Z"/></svg></p></a>
+        </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script type="module" src="./script.js" defer></script>
+</body>
+</html>
