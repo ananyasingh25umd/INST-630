@@ -1,0 +1,36 @@
+This page contains the credits and references.
+
+1. Landing Page quote:
+By API Ninjas 
+https://api-ninjas.com/api/quotes
+
+2. Local downloaded quotes in quotes.json (could not use it because of CORS error):
+By Zenquotes.io
+https://zenquotes.io/api/quotes
+
+3. Mood Cards Bubble Images (Happy, Sad, Calm, Frustrated...):
+By Ands Mahardika
+https://unsplash.com/@andsproject/illustrations
+
+4. All background images as imports and CSS background URL:
+By Unsplash
+https://unsplash.com/
+
+5. Relaxing Music in each mood detail page (free):
+By ElevenLabs
+https://elevenlabs.io/music/relaxation
+
+6. Animations and micro-interactions:
+By GSAP
+Yoyo effect on landing page bottom chevrons: https://gsap.com/docs/v3/GSAP/Tween/yoyo()/
+Timeline effect for all the texts in all pages: https://gsap.com/docs/v3/GSAP/Timeline
+Mood Cards displaying one after another: https://gsap.com/resources/getting-started/Staggers/
+The crossfading of hamburger menu to cross icon in mobile mode: https://gsap.com/community/forums/topic/19839-crossfade-animation/
+
+7. Waveforms and music controls:
+By wavesurfer.xyz
+https://wavesurfer.xyz/
+Play music: https://wavesurfer.xyz/docs/classes/wavesurfer.default#play
+Pause music: https://wavesurfer.xyz/docs/classes/wavesurfer.default#pause
+setVolume (to control the volume): https://wavesurfer.xyz/docs/classes/wavesurfer.default#setVolume
+setPlaybackRate (to control speed): https://wavesurfer.xyz/docs/classes/wavesurfer.default#setPlaybackRate
