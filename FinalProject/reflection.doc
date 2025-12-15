@@ -1,56 +1,56 @@
 So, this is where I'll be writing about my entire thought process behind this entire project. This was a very important 
-and personal for me.
+and a personal project for me.
 
 1. Landing page: 
 This page contains the main quote that gets loaded from the API ninjas. I added the chevron at 
-the bottom with a bouncing effect (yoyo feaature from GSAP) to tempt the user to click it in order to move forward. 
-Both clicking on the chevron, and the 'Mood' menu at the top nav bar leads to the next page. The chevron also loads 
-1 second after the quote loads up on the page because the bouncing effect from the beginning is a bit distracting. 
-So, the quote comes first, the eyes catch that section of the page and then slowly, the chevron comes up, to guide the 
+the bottom with a bouncing effect (yoyo feature from GSAP) to tempt the user to click it, in order to move forward. 
+Both clicking on the chevron and the 'Mood' menu at the top nav bar leads to the next page. The chevron also loads 
+1 second after the quote loads up on the page, because the bouncing effect from the beginning is a bit distracting. 
+So, the quote comes first, the eyes catch that section of the page, and then slowly, the chevron comes up to guide the 
 user to the next page.
 
 2. Mood Selection Page: 
-Here I wanted the user to be slowly immersed into the feeling rather than a quick burst of texts.
-That's why I added the effect where each and every element glides-in slowly. The different mood cards also have a 
-stagger effect where each card loads up one after rather, rather than all of them coming up at once. The selection of pictures
+Here, I wanted the user to be slowly immersed in the feeling rather than a quick burst of texts.
+That's why I added the effect where each and every element glides in slowly. The different mood cards also have a 
+stagger effect where each card loads up one after another, rather than all of them coming up at once. The selection of pictures
 inside the mood cards was another huge deal. It took me 4 iterations to finalize the pictures because I wanted the
-picture to directly speak what the emotion is trying to be conveyed. I downloaded many images but somehow they where
+picture to directly speak what the emotion is trying to be conveyed. I downloaded many images, but somehow they were
 either clashing with the background color, lacked consistency, or were just not able to convey the emotions the way 
-I wanted them to convey. Finally, I found a wonderful artist on Unsplash (added her in the credits in another doc) 
-who made illustrations for different emotions and I downloaded them in svg, converted the background of all those 
-images to blend well with my background so that they look seamless. It took me almost 5-6 hours just to finalise and 
-fine-tune the images for those mood cards. Since, I wanted those images to speak for themselves, I added a hover effect 
+I wanted to. Finally, I found a wonderful artist on Unsplash (added her in the credits in another doc) 
+who made illustrations for different emotions, and I downloaded them in SVG, converted the background of all those 
+images to blend well with my background, so that they look seamless. It took me almost 5-6 hours just to finalise and 
+fine-tune the images for those mood cards. Since I wanted those images to speak for themselves, I added a hover effect 
 to tell what each picture meant (happy, sad, calm, etc.). Even after adding the mood cards, I wanted to display them 
 in the form of thought bubbles to indicate as if the user is actually thinking about those emotions.
 
 3. Mood Details Page:
-After clicking on each card, the mood details part opens up. I wanted the user to remember which card they selected, so,
-I added the breadcrumb menu at the top but just added the box shadow to not over-emphasize it. This is where the 
-quote from my quotes.json comes into picture. Each quote in the JSON file have multiple categories. So, when the
+After clicking on each card, the mood details part opens up. I wanted the user to remember which card they selected, so
+I added the breadcrumb menu at the top, but just added the box shadow to not over-emphasize it. This is where the 
+quote from my quotes.json comes into the picture. Each quote in the JSON file has multiple categories. So, when the
 user selects a particular mood card, I wanted the array to be filtered with that mood and then pick a random quote
 (because the multiple quotes would get filtered for a particular mood). Building this page was the most fun. 
-Since I was not able to use Tone.js, I had already researched about wavesurfer.xyz before as well. I stumbled upon
-it through Google search while I was making the project proposal in November and wanted to have an alternative way
-for music in case the Tone.js did not work out (since music was a necessary part of my project and I needed a backup plan for it).
-Moreover, I also wanted to add a small textarea as well where the users can write about their day as a journal.
+Since I was not able to use Tone.js, I had already researched wavesurfer.xyz before as well. I stumbled upon
+it through Google search while I was making the project proposal in November, and wanted to have an alternative way
+for music in case Tone.js did not work out (since music was a necessary part of my project and I needed a backup plan for it).
+Moreover, I also wanted to add a small textarea as well, where the users can write about their day as a journal.
 I did not add that part in my proposal before because I thought it would require a lot of backend coding to store
-the entries (which it should). But later on I figured out that it can be kept as frontend as well by using the 
+the entries (which it should). But later on, I figured out that it can be kept in the frontend as well, by using the 
 localStorage (good enough for my project). For music controls, I just wanted to show it in the form of a radio with 
 simple controls of volume, start/ pause which changes dynamically so that users do not get confused with the label 
 (yes, the start/pause always confuses me if there is only dynamically changing icon and no label, so thought of that 
 as a user problem and added in my button).
 
 4. Responsiveness: 
-I always start the design with responsiveness first in my head so that I do not have to rework again and again on design
-as well as the code. I added a subtle GSAP animation to the hanburger menu at the top and the way menu glides in and 
+I always start the design with responsiveness first in my head, so that I do not have to rework again and again on the design
+as well as the code. I added a subtle GSAP animation to the hamburger menu at the top, and the way the menu glides in and 
 out as well. 
 
 5. Use of GenAI:
-I used ChatGPT free version to help me with few functions where either I had no idea of how to proceed or needed guidance
+I used ChatGPT free version to help me with a few functions where either I had no idea how to proceed or needed guidance
 to convert my design ideas to code. 
     5.1 I needed help in adding the bubbles for the mood cards. I could picture it correctly, but somehow, after hours
-    of working on CSS for it, I was not able to display it diagonally on top of another, ChatGPT free provided a sample
-    code for this but that also was not the correct way I wanted it to display. But it created a base for me to work
+    of working on CSS for it, I was not able to display it diagonally on top of another. ChatGPT free provided a sample
+    code for this, but that was also not the correct way I wanted it to display. But it created a base for me to work
     around and build those bubbles.
 
     5.2 In the mood details page, I took help to map the knob rotation to the volume and speed increase/ decrease from
@@ -59,7 +59,7 @@ to convert my design ideas to code.
     desired result and perfect synchronization.
 
 6. My reflections:
-This is a long document and it is more of a reminder for me to understand the thought process behind each and every decision
-of building the elements in each page. Overall, I just wanted a calm and aesthetic vibe from this website which requied a lot
+This is a long document, and it is more of a reminder for me to understand the thought process behind each and every decision
+of building the elements on each page. Overall, I just wanted a calm and aesthetic vibe from this website, which required a lot
 of visual design iterations as well. I hope I was able to convey that. I really enjoyed building this project and learnt a lot 
 about JavaScript as well. Somehow, even after many bugs, I still enjoyed coding a lot. Thank you for this amazing class!
