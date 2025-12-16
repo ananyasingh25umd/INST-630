@@ -4,7 +4,7 @@ This page contains the credits and references.
 By API Ninjas 
 https://api-ninjas.com/api/quotes
 
-2. Local downloaded quotes in quotes.json (could not use it because of CORS error):
+2. Local downloaded quotes in quotes.json (could not use the actual API because of CORS error):
 By Zenquotes.io
 https://zenquotes.io/api/quotes
 
